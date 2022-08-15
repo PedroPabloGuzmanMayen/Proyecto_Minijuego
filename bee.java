@@ -15,7 +15,7 @@ public class bee extends Mover
     public void act()
     {
          move();
-         
+         setImage("bee.png");
          if ( atWorldEdge() ){
              turn(Greenfoot.getRandomNumber(360));
              move(Greenfoot.getRandomNumber(360));
